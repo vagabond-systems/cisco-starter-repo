@@ -1,0 +1,15 @@
+.bannerWrapper{
+    display: flex;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 15px;
+    flex: 1;
+    color: #ffffff;
+}
+
+.imgLogo{
+    height: 55px;
+}

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding-bottom: 100px;
 }
 
 ::-webkit-scrollbar{
@@ -16,6 +17,25 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.tabTitle{
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btn{
+  color: black;
+  border: 1px solid white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #425c7d;
 }
 
 @media (prefers-reduced-motion: no-preference) {

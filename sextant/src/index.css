@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.banner{
+  width: 100%;
+  padding: 20px;
+  /* background-color: #36b4b2; */
+  border-bottom: 2px solid #ccc;
+}
+.primary_color{
+  color: #ff3873;
+}
+.secondary_color{
+  color: #c2cbed;
+}
+.flex{
+  display: flex;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.flex-d-center{
+  justify-content: center;
+}
+.my-5{
+  margin: 50px 0 50px 0;
+}
+.mt-2{
+  margin-top: 20px;
+}
+.mb-3{
+  margin-bottom: 30px;
+}
+.pb-3{
+  padding-bottom: 30px;
+}
+.text-center{
+  text-align: center;
+}
+.card{
+  /* border: 1px solid #ccc; */
+  box-shadow: rgba(0, 0, 0, 0.20) 0px 1px 4px;
+  border-radius: 20px;
+}

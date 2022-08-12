@@ -1,7 +1,12 @@
-
+import Banner from "./Banner";
+import Content from "./Content";
 function App() {
   return (
-    <h1>Welcome to React</h1>
+    <>
+    <Banner/>
+    <Content/>
+    </>
+
   );
 }
 

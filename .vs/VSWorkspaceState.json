@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\pylon",
+    "\\sextant",
+    "\\sextant\\public",
+    "\\sextant\\src"
   ],
-  "SelectedNode": "\\C:\\Users\\Presha\\Source\\Repos\\cisco-starter-repo",
+  "SelectedNode": "\\sextant\\public",
   "PreviewInSolutionExplorer": false
 }

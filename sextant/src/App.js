@@ -14,12 +14,12 @@ function App() {
           { content: "Home", url: "/example" },
           { content: "Another", url: "/another" },
           {
-            content: "Link w/ Children",
+            content: "Sextant Subset",
             url: "/children",
             children: [
-              { content: "John", url: "/children/john" },
-              { content: "Jill", url: "/children/jill" },
-              { content: "Jack", url: "/children/jack" }
+              { content: "sub1", url: "/children/sub1" },
+              { content: "sub2", url: "/children/sub2" },
+              { content: "sub3", url: "/children/sub3" }
             ]
           }
         ]}

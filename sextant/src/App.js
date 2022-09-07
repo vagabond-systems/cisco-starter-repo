@@ -19,6 +19,12 @@ function App() {
           <h1>Sextant App</h1>
           <p>By Bryonna Gray</p>
         </section>
+        <p id="ipv4"></p>
+
+        <script>
+          document.getElementById("ipv4").innerHTML =
+          fetch(https://api.ipify.org?format=jsonp&callback=getip)
+        </script>
       </body>
     </div>
   );

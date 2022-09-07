@@ -15,8 +15,10 @@ function App() {
         </a>
       </header>
       <body>
-        <h1>Sextant App</h1>
-        <p>By Bryonna Gray</p>
+        <section class="header">
+          <h1>Sextant App</h1>
+          <p>By Bryonna Gray</p>
+        </section>
       </body>
     </div>
   );

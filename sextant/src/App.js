@@ -19,12 +19,14 @@ function App() {
           <h1>Sextant App</h1>
           <p>By Bryonna Gray</p>
         </section>
-        <p id="ipv4"></p>
-
-        <script>
-          document.getElementById("ipv4").innerHTML =
-          fetch(https://api.ipify.org?format=jsonp&callback=getip)
+        <script type="application/javascript">
+          function getIP(json){"https://api.ipify.org?format=json"}
+          {document.write("My public IPv4 address is: ", json.ip)}
         </script>
+        <script
+          type="application/javascript"
+          src="https://api.ipify.org?format=jsonp&callback=getIP"
+        ></script>
       </body>
     </div>
   );

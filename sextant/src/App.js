@@ -5,9 +5,9 @@ import Container from "./Container";
 function App() {
   return (
     <div className="App">
-      <Banner />
-      <Container>
-        <div className="card">This is the content in the card</div>
+      <Banner bannerName="Sextant" />
+      <Container containerTitle="Container">
+        <div>This is the card content</div>
       </Container>
     </div>
   );

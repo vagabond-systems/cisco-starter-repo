@@ -17,6 +17,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .banner {
@@ -31,18 +32,6 @@
   color: white;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.card {
-  display: flex;
-  height: 300px;
-  width: 300px;
-  background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 10px;
-  justify-content: center;
-  align-items: center;
-  color: #575757;
 }
 
 @media (prefers-reduced-motion: no-preference) {

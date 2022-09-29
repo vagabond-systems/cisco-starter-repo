@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Banner = () => {
+const Banner = (props) => {
     return (
-        <div className="banner">Sextant</div>
+        <div className="banner">{props.bannerName}</div>
 
     )
 }

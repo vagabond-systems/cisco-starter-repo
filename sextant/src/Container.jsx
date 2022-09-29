@@ -3,7 +3,7 @@ import React from 'react'
 const Container = (props) => {
     return (
         <div className='container'>
-            <div className='container-title'>Container title</div>
+            <div className='container-title'>{props.containerTitle}</div>
             {props.children}
         </div>
     )

@@ -1,0 +1,72 @@
+/*  src/Title.css  */
+
+.title {
+    box-sizing: border-box;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    background-image: url("./water_background.jpg");
+    color: rgb(73, 14, 233);
+    flex-direction: row;
+  }
+
+.headerTitle   {
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    padding: 1px;
+    margin: 1px;
+    color: rgb(73, 14, 233);
+    width: 100%;
+    flex-direction: column;
+    height: 100px;
+  }
+
+h1  {
+  margin: 0px;
+}
+
+h3  {
+  margin: 0px;
+}
+
+.imgLogo  {
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;               
+    top: 5%; 
+    margin-left: 20px; 
+  }
+
+.logo  {
+    width: 150px;
+    height: 100px;
+    padding: 1em;
+    margin-bottom: 2em;
+    margin-left: 0em;
+    margin-top: 10em;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  }
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

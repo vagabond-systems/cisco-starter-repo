@@ -11,7 +11,7 @@ function Title() {
             <img src={logo} className="App-logo" alt="Logo"/>
         </div>
         <div className='headerTitle'>
-            <h1>SEKSTANT FRONTEND</h1>
+            <h1 id = "textH">SEKSTANT FRONTEND</h1>
             <br/>
             <h3>Student Sviatoslav Pechenevskyi</h3>
         </div>

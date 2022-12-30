@@ -32,6 +32,23 @@ h3  {
   margin: 0px;
 }
 
+#textH  {
+  -webkit-animation: textH 6s linear infinite;
+  animation: textH 6s linear infinite;
+}
+
+@-webkit-keyframes textH {
+  0% { color: rgb(204, 204, 233); }
+  50% { color: rgb(71, 26, 235); }
+  100% { color: rgb(17, 5, 83); }
+}
+
+@keyframes textH {
+  0% { color: rgb(177, 170, 240); }
+  50% { color: rgb(57, 39, 221); }
+  100% { color: rgb(6, 4, 92); }
+}
+
 .imgLogo  {
     align-items: flex-start;
     justify-content: flex-start;

@@ -1,0 +1,12 @@
+.exhibit    {
+    width: 97%;
+    height: 560px;
+    margin: 5px;
+    display: inline-block;
+    padding: 3px;
+
+    background-image: url("./canvas-546877.jpg");
+
+      border: double;
+      border-width: 3px;
+}

@@ -2,15 +2,17 @@
 
 .title {
     box-sizing: border-box;
-    width: 100%;
+    width: 70%;
     height: 150px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    display: inline-block;
+    margin: 5px;
 
     background-image: url("./water_background.jpg");
     color: rgb(73, 14, 233);
     flex-direction: row;
+
+    border: 10px solid transparent;
+      border-image: url("./frame-2487087.png") 50 round;
   }
 
 .headerTitle   {
@@ -54,7 +56,8 @@ h3  {
     justify-content: flex-start;
     position: absolute;               
     top: 5%; 
-    margin-left: 20px; 
+    margin-left: 20px;
+    margin-top: 5px; 
   }
 
 .logo  {

@@ -1,9 +1,9 @@
 .App {
   text-align: center;
-  background-color: blue;
+  margin: 1px;
 }
 
-.App-logo {
+/*.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -37,3 +37,16 @@
     transform: rotate(360deg);
   }
 }
+*/
+
+@media all and (orientation:landscape) {
+  /* стили для пейзажа */
+    .App  {
+
+      background-image: url("./jute-1655.jpg");
+
+      border: 5px solid transparent;
+      border-image: url("./frame-2487285.png") 50 round;   
+
+    }
+ }

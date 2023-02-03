@@ -2,11 +2,18 @@ import './App.css';
 import Banner from './components/Banner.js';
 import Dashboard from './components/dashboard/Dashboard.js';
 
+const exhibits = [
+  'Metric 1',
+  'Metric 2',
+  'Metric 3',
+  'Metric 4'
+]
+
 function App() {
   return (
     <div className="App">
       <Banner />
-      <Dashboard />
+      <Dashboard exhibits={exhibits}/>
     </div>
   );
 }

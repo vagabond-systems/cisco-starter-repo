@@ -3,7 +3,6 @@ import React from 'react';
 
 function Dashboard(props) {
   const exhibits = props.exhibits;
-  console.log(exhibits)
   return (
     <div id="dashboard" className="bg-slate-400">
       <h1>These are the dashboards</h1>

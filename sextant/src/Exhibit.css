@@ -1,0 +1,23 @@
+.card {
+    background-color: #1d2129;
+    width:40%;
+    height:inherit;
+    margin:30px;
+    float: left;
+    border-radius: 2px;
+}
+
+.card h3{   /* This just styles the test children (will change later)*/
+    color:white;
+    padding:10px;
+}
+
+.cardTitle {
+    width:100%;
+    box-sizing: border-box;
+    margin:0px;
+    padding:10px;
+    background-color: #161a21;
+    border-Left: 4px solid steelblue;
+    color: white;
+}

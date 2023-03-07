@@ -6,6 +6,7 @@ import Exhibit from './Exhibit';
 import Map from './Map';
 import Quote from './Quote';
 import Image from './Image';
+import IPAddress from './IPAddress';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,12 @@ function App() {
       </Exhibit>
       <Exhibit>
       <Image />
+      </Exhibit>
+      <Exhibit>
+        <IPAddress type="v4" />
+      </Exhibit>
+      <Exhibit>
+        <IPAddress type="v6" />
       </Exhibit>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

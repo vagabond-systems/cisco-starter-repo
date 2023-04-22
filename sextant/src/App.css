@@ -43,10 +43,10 @@
   /* стили для пейзажа */
     .App  {
 
-      background-image: url("./jute-1655.jpg");
+      background-image: url("./Image/jute-1655.jpg");
 
       border: 5px solid transparent;
-      border-image: url("./frame-2487285.png") 50 round;   
+      border-image: url("./Image/frame-2487285.png") 50 round;   
 
     }
  }

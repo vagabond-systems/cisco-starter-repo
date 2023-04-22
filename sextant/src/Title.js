@@ -2,7 +2,7 @@
 
 import React from 'react'
 import './Title.css';
-import logo from './logo.jpg';
+import logo from './Image/logo.jpg';
 
 function Title() {
   return (

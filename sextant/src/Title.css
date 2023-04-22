@@ -7,12 +7,12 @@
     display: inline-block;
     margin: 5px;
 
-    background-image: url("./water_background.jpg");
+    background-image: url("./Image/water_background.jpg");
     color: rgb(73, 14, 233);
     flex-direction: row;
 
     border: 10px solid transparent;
-      border-image: url("./frame-2487087.png") 50 round;
+      border-image: url("./Image/frame-2487087.png") 50 round;
   }
 
 .headerTitle   {

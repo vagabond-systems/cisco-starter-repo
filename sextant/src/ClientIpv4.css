@@ -1,0 +1,15 @@
+.clientIpv4 {
+    background-image: url("./Image/texture-1108409.jpg");
+    
+    border: 10px solid transparent;
+      border-image: url("./Image/frame-669752.png") 50 round;
+      opacity: 0.7;
+
+    font-weight: bold;
+    color: black;
+}
+
+h2, h4{
+  font-weight: bold;
+  color: black;
+}

@@ -1,0 +1,92 @@
+/*  src/Title.css  */
+
+.title {
+    box-sizing: border-box;
+    width: 70%;
+    height: 150px;
+    display: inline-block;
+    margin: 5px;
+
+    background-image: url("./Image/water_background.jpg");
+    color: rgb(73, 14, 233);
+    flex-direction: row;
+
+    border: 10px solid transparent;
+      border-image: url("./Image/frame-2487087.png") 50 round;
+  }
+
+.headerTitle   {
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    padding: 1px;
+    margin: 1px;
+    color: rgb(73, 14, 233);
+    width: 100%;
+    flex-direction: column;
+    height: 100px;
+  }
+
+h1  {
+  margin: 0px;
+}
+
+h3  {
+  margin: 0px;
+}
+
+#textH  {
+  -webkit-animation: textH 6s linear infinite;
+  animation: textH 6s linear infinite;
+}
+
+@-webkit-keyframes textH {
+  0% { color: rgb(204, 204, 233); }
+  50% { color: rgb(71, 26, 235); }
+  100% { color: rgb(17, 5, 83); }
+}
+
+@keyframes textH {
+  0% { color: rgb(177, 170, 240); }
+  50% { color: rgb(57, 39, 221); }
+  100% { color: rgb(6, 4, 92); }
+}
+
+.imgLogo  {
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;               
+    top: 5%; 
+    margin-left: 20px;
+    margin-top: 5px; 
+  }
+
+.logo  {
+    width: 150px;
+    height: 100px;
+    padding: 1em;
+    margin-bottom: 2em;
+    margin-left: 0em;
+    margin-top: 10em;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  }
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

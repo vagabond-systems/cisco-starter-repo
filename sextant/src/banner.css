@@ -1,0 +1,11 @@
+.banner {
+    background-color: rgb(105, 228, 255);
+    padding: 0.25rem;
+}
+
+.banner h1 {
+    padding: 1rem;
+    /* border-color: red;
+    border-style: solid; */
+    border-radius: 5px;
+}

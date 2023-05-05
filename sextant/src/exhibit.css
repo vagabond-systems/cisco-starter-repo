@@ -1,0 +1,25 @@
+.exhibit-header h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 1rem;
+    color: orange;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.exhibit {
+    background-color: light;
+    width: 50vw;
+    height: 45vh;
+    display: inline-block;
+    position: relative;
+  }
+  
+
+.exhibit-chart {
+    padding: 1rem;
+}

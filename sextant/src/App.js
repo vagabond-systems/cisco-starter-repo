@@ -1,23 +1,24 @@
 // import logo from './logo.svg';
+import React, { Component } from "react";
 import "./App.css";
+import Banner from "./Banner";
+import Exhibit from "./Exhibit";
+import AddressDisplay from "./AddressDisplay";
 
-function FancyBorder(props) {
-  return (
-    <div className={'FancyBorder FancyBorder-' + props.color}>
-      {props.children}
-    </div>
-  );
-}
-
-function App() {
-  return (
-    <div className="App">
-      <FancyBorder color="blue">
-        <h1 className="Dialog-title">Welcome</h1>
-        <p className="Dialog-message">Thank you for visiting our Sextant frontend!</p>
-      </FancyBorder>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Banner bannerText="Sextant" />
+        <Exhibit name="Public IPv4 Address">
+          <AddressDisplay url="https://api.ipify.org?format=json" />
+        </Exhibit>
+        <Exhibit name="Public IPv6 Address">
+          <AddressDisplay url="https://api64.ipify.org?format=json" />
+        </Exhibit>
+      </div>
+    );
+  }
 }
 
 export default App;

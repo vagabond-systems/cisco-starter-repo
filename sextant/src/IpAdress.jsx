@@ -6,7 +6,7 @@ const IpAdress = ({ ipType }) => {
     const ipArray = { ipv4: "https://api.ipify.org?format=json", ipv6: "https://api64.ipify.org?format=json" }
     useEffect(() => {
         fetch(
-            "https://api64.ipify.org?format=json")
+            ipArray[ipType])
             .then((res) => res.json())
             .then((json) => {
                 setIpAdress(json.ip);

@@ -1,5 +1,6 @@
 .Exhibit {
   float: left;
+  justify-content: center;
   margin: 0.5vw;
   padding: 2vw 4vw;
   border-radius: 10px;
@@ -9,15 +10,16 @@
 
 .ExhibitHeading {
   font-weight: bold;
-  font-size: 1.2;
+  font-size: 1.7rem;
 }
 
 .ExhibitContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 1vw 2vw;
   text-align: center;
-  font-size: 1vw;
-  color: #002933;
-  background-color: #80e5ff;
-  border: 0.25vw solid #005266;
+  font-size: 1rem;
   border-radius: 1vw;
 }

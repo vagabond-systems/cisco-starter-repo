@@ -9,6 +9,9 @@ function App() {
       <Container containerTitle="Container">
         <div>This is the card content</div>
       </Container>
+      <Container containerTitle="IP Addresses">
+        <div>This space is for the IP addresses of the following devices</div>
+      </Container>
     </div>
   );
 }

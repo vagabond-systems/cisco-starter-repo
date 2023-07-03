@@ -1,0 +1,25 @@
+.Exhibit {
+  float: left;
+  justify-content: center;
+  margin: 0.5vw;
+  padding: 2vw 4vw;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.ExhibitHeading {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.ExhibitContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1vw 2vw;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 1vw;
+}

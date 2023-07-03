@@ -16,7 +16,7 @@ function App() {
           }}
         >
           <Exhibit exhibitTitle="IPv4">
-            <IpAdress ipType="ipv6"></IpAdress>
+            <IpAdress ipType="ipv4"></IpAdress>
           </Exhibit>
           <Exhibit exhibitTitle="IPv6">
             <IpAdress ipType="ipv6"></IpAdress>

@@ -1,17 +1,17 @@
 import "./App.css";
 import Banner from "./Banner";
-import Container from "./Container";
+import Exhibit from "./Exhibit";
 
 function App() {
   return (
     <div className="App">
       <Banner bannerName="Sextant" />
-      <Container containerTitle="Container">
+      <Exhibit exhibitTitle="Exhibit">
         <div>This is the card content</div>
-      </Container>
-      <Container containerTitle="IP Addresses">
+      </Exhibit>
+      <Exhibit exhibitTitle="IP Addresses">
         <div>This space is for the IP addresses of the following devices</div>
-      </Container>
+      </Exhibit>
     </div>
   );
 }

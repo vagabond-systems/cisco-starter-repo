@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from './Banner';
 import Exhibit from './Exhibit';
 import IPAddress from './IPAddress';
+import LatencyDisplay from './LatencyDisplay';
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       </Exhibit>
       <Exhibit title="Public IPv6 Address">
         <IPAddress url='https://api64.ipify.org?format=json' />
+      </Exhibit>
+      <Exhibit title="Latency Metrics">
+        <LatencyDisplay />
       </Exhibit>
     </div>
   );

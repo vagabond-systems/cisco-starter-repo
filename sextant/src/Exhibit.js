@@ -1,4 +1,5 @@
 import React from 'react';
+import './Exhibit.css';
 
 function Exhibit({ title, children }) {
   return (

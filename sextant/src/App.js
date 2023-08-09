@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React from 'react';
 import Banner from './Banner';
 import Exhibit from './Exhibit';
@@ -16,11 +16,10 @@ function App() {
     </div>
   );
 }
-=======
 
 import './App.css';
 
 
->>>>>>> e8495b7affcba592b93b91dedb336ba6bed9500d
+
 
 export default App;

@@ -1,0 +1,17 @@
+
+
+.exhibit {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  .exhibit h2 {
+    margin-top: 0;
+  }
+  
+  .exhibit-content {
+    margin-top: 0.5rem;
+  }
+  

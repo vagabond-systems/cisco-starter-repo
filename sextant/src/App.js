@@ -1,25 +1,20 @@
-
 import React from 'react';
 import Banner from './Banner';
 import Exhibit from './Exhibit';
-import './App.css';
+import IPAddress from './IPAddress';
 
 function App() {
   return (
     <div className="App">
       <Banner />
       <Exhibit title="IP Metrics">
-        {/* IP metrics components here */}
+        <IPAddress type="ipv4" />
       </Exhibit>
       <Exhibit title="Latency Metrics">
-        {/* latency metrics components here */}
+        <IPAddress type="ipv6" />
       </Exhibit>
     </div>
   );
 }
-
-
-
-
 
 export default App;

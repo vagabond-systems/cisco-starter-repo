@@ -7,11 +7,11 @@ function App() {
   return (
     <div className="App">
       <Banner />
-      <Exhibit title="IP Metrics">
-        <IPAddress type="ipv4" />
+      <Exhibit title="Public IPv4 Address">
+        <IPAddress url='https://api.ipify.org?format=json' />
       </Exhibit>
-      <Exhibit title="Latency Metrics">
-        <IPAddress type="ipv6" />
+      <Exhibit title="Public IPv6 Address">
+        <IPAddress url='https://api64.ipify.org?format=json' />
       </Exhibit>
     </div>
   );

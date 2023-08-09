@@ -1,21 +1,27 @@
-import React, { useState, useEffect } from 'react';
+import React, { Component } from 'react';
 
-function IPAddress({ type }) {
-  const [ipAddress, setIpAddress] = useState('');
+class AddressDisplay extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            url: props.url,
+            ipAddress: null
+        };
+    }
 
-  useEffect(() => {
-    const ipAddressType = type === 'ipv6' ? 'ipv6' : 'ipv4';
-    fetch(`https://api64.ipify.org?format=json&${ipAddressType}=true`)
-      .then(response => response.json())
-      .then(data => setIpAddress(data[ipAddressType]));
-  }, [type]);
+    componentDidMount() {
+        fetch(this.state.url)
+            .then(response => response.json())
+            .then(data => this.setState({ ipAddress: data.ip }));
+    }
 
-  return (
-    <div>
-      <p>Your {type.toUpperCase()} address:</p>
-      <p>{ipAddress}</p>
-    </div>
-  );
+    render() {
+        return (
+            <span className="AddressDisplay">
+                {this.state.ipAddress}
+            </span>
+        );
+    }
 }
 
-export default IPAddress;
+export default AddressDisplay;

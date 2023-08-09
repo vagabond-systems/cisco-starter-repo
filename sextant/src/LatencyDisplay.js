@@ -12,11 +12,15 @@ class PylonConnector extends Component {
 
     componentDidMount() {
         client.onmessage = (message) => {
-            this.setState({
-                latency: new Date().getTime() - message.data
-            })
+          const packetTimestamp = JSON.parse(message.data).data.timestamp;
+          const currentTimestamp = new Date().getTime();
+          const packetLatency = currentTimestamp - packetTimestamp;
+          this.setState({
+            latency: packetLatency
+          });
         };
-    }
+      }
+      
 
     render() {
         return (

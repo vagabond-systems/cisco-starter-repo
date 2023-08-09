@@ -2,6 +2,7 @@
 import React from 'react';
 import Banner from './Banner';
 import Exhibit from './Exhibit';
+import './App.css';
 
 function App() {
   return (
@@ -17,7 +18,6 @@ function App() {
   );
 }
 
-import './App.css';
 
 
 

@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import WebSocketClient from 'websocket';
 
 function LatencyDisplay() {
   const [latency, setLatency] = useState(null);
-  const socket = new WebSocketClient.w3cwebsocket('ws://localhost:55455');
+  const socket = new WebSocket('ws://localhost:55455');
 
   useEffect(() => {
     socket.onmessage = (event) => {

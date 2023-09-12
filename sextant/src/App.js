@@ -1,6 +1,8 @@
 import Banner from './components/Banner';
 import Exhibit from './components/Exhibit';
 import './App.css';
+import IPAddresses from './components/IPAddresses';
+
 
 function App() {
 
@@ -8,8 +10,10 @@ function App() {
         <div className="app">
             <Banner />
             <Exhibit heading="Sample Exhibit">
-                {/* You can place other components or content here */}
-                <p>This is a sample content inside the Exhibit component.</p>
+            <div>
+                    <IPAddresses version="ipv4" />
+                    <IPAddresses version="ipv6" />
+            </div>
             </Exhibit>
         </div>
     );

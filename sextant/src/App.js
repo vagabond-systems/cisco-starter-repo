@@ -4,6 +4,7 @@ import './Exhibit.css';
 import Banner from './Banner';
 import Exhibit from './Exhibit';
 import IP from './IP';
+import Packet from './Packet';
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
                 <Exhibit name="My IP Address IPv6">
                   <IP url='https://api64.ipify.org?format=json' />
                 </Exhibit>
-                <Exhibit name="Don't forget about me, I'm an exhibit too!"></Exhibit>
+                <Exhibit name="Pylon Packet Latency">
+                    <Packet />
+                </Exhibit>
                 
     </div>
   );

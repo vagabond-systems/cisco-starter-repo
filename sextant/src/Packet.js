@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 const client = new WebSocket('ws://localhost:55455');
 
 class Packet extends Component {

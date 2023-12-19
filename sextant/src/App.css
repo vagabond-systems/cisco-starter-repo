@@ -1,3 +1,10 @@
+body{
+  background-color: #0e0e0e;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 700;
+}
+
 .App {
   text-align: center;
 }
